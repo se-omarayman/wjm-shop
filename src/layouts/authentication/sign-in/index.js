@@ -51,6 +51,7 @@ import TextField from "components/Forms/TextField";
 
 // Images
 import curved9 from "assets/images/curved-images/curved-6.jpg";
+import { Checkbox } from "@mui/material";
 
 function SignInPage({ intl }) {
   document.title = intl.formatMessage({ id: "authentication.login.page.title" });
@@ -155,8 +156,7 @@ function SignInPage({ intl }) {
           onSubmit(values);
         }}
         render={({ handleSubmit, submitting, errors, touched }) => (
-          <div
-          >
+          <div>
             {!loginForm.authenticating && loginForm.invalidAttempts && (
               <Alert variant="filled" severity="warning" icon={false} sx={{ mb: 1.5, mt: -1 }}>
                 <FormattedMessage id="authentication.login.messages.invalidCredentials" />
@@ -209,7 +209,6 @@ function SignInPage({ intl }) {
 
               <SoftBox mb={2}>
                 <SoftBox mb={1} ml={0.5}>
-
                   <Field
                     name="password"
                     validate={async (value) =>
@@ -238,12 +237,33 @@ function SignInPage({ intl }) {
                     )}
                   </Field>
 
-                  <Stack direction="row" justifyContent="space-between">
+                  <Stack
+                    style={{ marginTop: "15px" }}
+                    direction="row"
+                    justifyContent="space-between"
+                  >
+                    <SoftBox display="flex" alignItems="center">
+                      <Checkbox
+                        checked={rememberMe}
+                        onChange={handleSetRememberMe}
+                        disabled={submitting || loginForm.authenticating}
+                      />
+                      <SoftTypography
+                        variant="button"
+                        fontWeight="regular"
+                        onClick={handleSetRememberMe}
+                        sx={{ cursor: "pointer", userSelect: "none" }}
+                      >
+                        &nbsp;&nbsp;
+                        <FormattedMessage id="forms.input.rememberMe.labelText" />
+                      </SoftTypography>
+                    </SoftBox>
+
                     <SoftTypography
                       component={Link}
                       to="/forgot-password"
                       variant="button"
-                      color="info"
+                      color="dark"
                       fontWeight="medium"
                     >
                       <FormattedMessage id="authentication.login.links.forgotPassword" />
@@ -251,22 +271,6 @@ function SignInPage({ intl }) {
                   </Stack>
                 </SoftBox>
 
-                <SoftBox display="flex" alignItems="center" sx={{ mt: 1.7 }}>
-                  <Switch
-                    checked={rememberMe}
-                    onChange={handleSetRememberMe}
-                    disabled={submitting || loginForm.authenticating}
-                  />
-                  <SoftTypography
-                    variant="button"
-                    fontWeight="regular"
-                    onClick={handleSetRememberMe}
-                    sx={{ cursor: "pointer", userSelect: "none" }}
-                  >
-                    &nbsp;&nbsp;
-                    <FormattedMessage id="forms.input.rememberMe.labelText" />
-                  </SoftTypography>
-                </SoftBox>
                 <SoftBox mt={4} mb={1}>
                   <SoftButton
                     // variant="gradient"

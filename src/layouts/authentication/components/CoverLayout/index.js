@@ -70,14 +70,14 @@ function CoverLayout({ color, header, title, description, image, top, children }
               >
                 <SoftBox p={5}>
                   <div
-                    // style={{
-                      // position: "relative",
-                      // width: "65%",
-                      // left: "20%",
-                    // }}
+                  // style={{
+                  // position: "relative",
+                  // width: "65%",
+                  // left: "20%",
+                  // }}
                   >
-                <h2>Welcome Back</h2>
-                <h6>Enter your details and pay bills easily</h6>
+                    <h2>{title}</h2>
+                    <h6 style={{ marginBottom: "10px" }}>{description}</h6>
                     {children}
                   </div>
                 </SoftBox>
