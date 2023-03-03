@@ -144,7 +144,7 @@ function SignInPage({ intl }) {
     <CoverLayout
       title={intl.formatMessage({ id: "authentication.login.form.headerText" })}
       description={intl.formatMessage({ id: "authentication.login.form.subHeaderText" })}
-      // image={curved9}
+      image={curved9}
     >
       <Form
         initialValues={{
@@ -155,7 +155,14 @@ function SignInPage({ intl }) {
           onSubmit(values);
         }}
         render={({ handleSubmit, submitting, errors, touched }) => (
-          <>
+          <div
+            style={{
+              display: "flex",
+              "justify-content": "center",
+              "align-items": "center",
+            }}
+          >
+            <h1>asdfasfd</h1>
             {!loginForm.authenticating && loginForm.invalidAttempts && (
               <Alert variant="filled" severity="warning" icon={false} sx={{ mb: 1.5, mt: -1 }}>
                 <FormattedMessage id="authentication.login.messages.invalidCredentials" />
@@ -284,7 +291,7 @@ function SignInPage({ intl }) {
                 </SoftBox>
               </SoftBox>
             </SoftBox>
-          </>
+          </div>
         )}
       />
     </CoverLayout>
