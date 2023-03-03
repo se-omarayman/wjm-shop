@@ -60,11 +60,7 @@ function CoverLayout({ color, header, title, description, image, top, children }
               <div
                 style={{
                   width: "60%",
-                  left: "20%",
-                  // display: "flex",
-                  position: "relative",
-                  "justify-content": "center",
-                  "align-items": "center",
+                  margin: "auto",
                   backgroundColor: "white",
                 }}
               >

@@ -17,6 +17,8 @@ import { useState, useContext, useEffect } from "react";
 
 import { useNavigate, Link } from "react-router-dom";
 
+import { IntlContext } from "contexts/LocalizationContext";
+
 import PropTypes from "prop-types";
 
 // @mui material components
@@ -52,6 +54,7 @@ import TextField from "components/Forms/TextField";
 // Images
 import curved9 from "assets/images/curved-images/curved-6.jpg";
 import { Checkbox } from "@mui/material";
+import Footer from "components/Footer";
 
 function SignInPage({ intl }) {
   document.title = intl.formatMessage({ id: "authentication.login.page.title" });
@@ -141,12 +144,23 @@ function SignInPage({ intl }) {
     return null;
   }
 
+  const intlContext = useContext(IntlContext);
+
+  const changeLangEn = () => {
+    intlContext.switchLanguage("en-US");
+  };
+  const changeLangAr = () => {
+    intlContext.switchLanguage("ar-SA");
+  };
+
   return (
     <CoverLayout
       title={intl.formatMessage({ id: "authentication.login.form.headerText" })}
       description={intl.formatMessage({ id: "authentication.login.form.subHeaderText" })}
       image={curved9}
     >
+      <button onClick={changeLangEn}>change lang</button>
+      <button onClick={changeLangAr}>change lang</button>
       <Form
         initialValues={{
           email: "",
@@ -271,7 +285,7 @@ function SignInPage({ intl }) {
                   </Stack>
                 </SoftBox>
 
-                <SoftBox mt={4} mb={1}>
+                <SoftBox mt={2} mb={1}>
                   <SoftButton
                     // variant="gradient"
                     color="dark"
