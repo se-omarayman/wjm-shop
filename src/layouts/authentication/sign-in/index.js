@@ -156,13 +156,7 @@ function SignInPage({ intl }) {
         }}
         render={({ handleSubmit, submitting, errors, touched }) => (
           <div
-            style={{
-              display: "flex",
-              "justify-content": "center",
-              "align-items": "center",
-            }}
           >
-            <h1>asdfasfd</h1>
             {!loginForm.authenticating && loginForm.invalidAttempts && (
               <Alert variant="filled" severity="warning" icon={false} sx={{ mb: 1.5, mt: -1 }}>
                 <FormattedMessage id="authentication.login.messages.invalidCredentials" />
