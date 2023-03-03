@@ -1,0 +1,27 @@
+{
+  "socialMediaTasks.pages.list.title": "مهام وسائل التواصل",
+  "socialMediaTasks.pages.edit.title": "مهام وسائل التواصل - {title}",
+
+  "socialMediaTasks.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "socialMediaTasks.list.dataTable.header.idColumnName": "#",
+  "socialMediaTasks.list.dataTable.header.titleColumnName": "العنوان",
+  "socialMediaTasks.list.dataTable.header.platformColumnName": "المنصة",
+  "socialMediaTasks.list.dataTable.header.createdAtColumnName": "تاريخ الاضافة",
+  "socialMediaTasks.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "socialMediaTasks.list.dataTable.actions.destroy.headerText": "تنبيه",
+  "socialMediaTasks.list.dataTable.actions.destroy.bodyText": "سوف يتم حذف سجل المهمة المحدد، هل تريد المتلبعة؟",
+  "socialMediaTasks.list.dataTable.actions.destroy.confirmText": "تأكيد",
+  "socialMediaTasks.list.dataTable.actions.destroy.cancelText": "إلغاء",
+  "socialMediaTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "تنبيه",
+  "socialMediaTasks.list.dataTable.actions.destroy.messages.success.messageBody": "تم حذف سجل المهمة المحدد بنجاح",
+
+  "socialMediaTasks.forms.create.success.messageBody": "تمت إضافة سجل المهمة الجديد بنجاح",
+  "socialMediaTasks.forms.create.createButtonText": "إضافة",
+  "socialMediaTasks.forms.create.cancelButtonText": "إلغاء",
+
+  "socialMediaTasks.forms.edit.success.messageBody": "تم تحديث سجل العميل بنجاح",
+  "socialMediaTasks.forms.edit.updateButtonText": "حفظ التغييرات",
+  "socialMediaTasks.forms.edit.cancelButtonText": "إلغاء"
+}

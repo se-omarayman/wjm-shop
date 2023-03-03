@@ -1,0 +1,27 @@
+{
+  "socialMediaTasks.pages.list.title": "Social media tasks",
+  "socialMediaTasks.pages.edit.title": "Social media tasks - {title}",
+
+  "socialMediaTasks.list.dataTable.header.createButtonText": "Add record",
+
+  "socialMediaTasks.list.dataTable.header.idColumnName": "#",
+  "socialMediaTasks.list.dataTable.header.titleColumnName": "TITLE",
+  "socialMediaTasks.list.dataTable.header.platformColumnName": "PLATFORM",
+  "socialMediaTasks.list.dataTable.header.createdAtColumnName": "CREATED AT",
+  "socialMediaTasks.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "socialMediaTasks.list.dataTable.actions.destroy.headerText": "Attention",
+  "socialMediaTasks.list.dataTable.actions.destroy.bodyText": "The selected task record will be removed, do you want to proceed?",
+  "socialMediaTasks.list.dataTable.actions.destroy.confirmText": "Confirm",
+  "socialMediaTasks.list.dataTable.actions.destroy.cancelText": "Cancel",
+  "socialMediaTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "Attention",
+  "socialMediaTasks.list.dataTable.actions.destroy.messages.success.messageBody": "The selected task record was removed successfully",
+
+  "socialMediaTasks.forms.create.success.messageBody": "The new task record was created successfully",
+  "socialMediaTasks.forms.create.createButtonText": "Create",
+  "socialMediaTasks.forms.create.cancelButtonText": "Cancel",
+
+  "socialMediaTasks.forms.edit.success.messageBody": "The task record was updated successfully",
+  "socialMediaTasks.forms.edit.updateButtonText": "Save changes",
+  "socialMediaTasks.forms.edit.cancelButtonText": "Cancel"
+}

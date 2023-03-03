@@ -1,0 +1,23 @@
+{
+    "dashboard.page.title": "Dashboard",
+
+    "dashboard.page.headerText": "Hi {name}, welcome back",
+
+    "dashboard.general.totalShipments.labelText": "Total Shipments",
+    "dashboard.general.monthlyShipments.labelText": "Monthly Shipments",
+    "dashboard.general.customers.labelText": "Total Customers",
+
+    "dashboard.finance.income.totalLabelText": "INCOME/TOTAL",
+    "dashboard.finance.income.thisMonthLabelText": "INCOME/THIS MONTH",
+
+    "dashboard.shippingCompanies.headerText": "Shipping Companies",
+    "dashboard.shippingCompanies.loadingPlaceholderText": "Loading...",
+
+    "dashboard.bestSellingProducts.headerText": "Best Selling Products",
+    "dashboard.bestSellingProducts.emptyPlaceholderText": "Start adding shipments using products",
+    "dashboard.bestSellingProducts.table.nameColumnName": "NAME",
+    "dashboard.bestSellingProducts.table.weightColumnName": "WEIGHT",
+
+    "dashboard.latestProducts.headerText": "Latest Products",
+    "dashboard.latestProducts.emptyPlaceholderText": "Starting to add your products makes creating shipments easier and also enables you to track sales and profit stats"
+}

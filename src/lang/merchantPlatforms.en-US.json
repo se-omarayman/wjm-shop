@@ -1,0 +1,31 @@
+{
+  "merchantPlatforms.pages.list.title": "Merchant platforms",
+
+  "merchantPlatforms.list.dataTable.header.createButtonText": "Add record",
+
+  "merchantPlatforms.list.dataTable.header.idColumnName": "#",
+  "merchantPlatforms.list.dataTable.header.nameColumnName": "NAME",
+  "merchantPlatforms.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "merchantPlatforms.list.dataTable.actions.archive.headerText": "Attention",
+  "merchantPlatforms.list.dataTable.actions.archive.bodyText": "The selected platform record will be archived, do you want to proceed?",
+  "merchantPlatforms.list.dataTable.actions.archive.confirmText": "Confirm",
+  "merchantPlatforms.list.dataTable.actions.archive.cancelText": "Cancel",
+  "merchantPlatforms.list.dataTable.actions.archive.messages.success.messageHeader": "Attention",
+  "merchantPlatforms.list.dataTable.actions.archive.messages.success.messageBody": "The selected platform record was archived successfully",
+
+  "merchantPlatforms.list.dataTable.actions.unarchive.headerText": "Attention",
+  "merchantPlatforms.list.dataTable.actions.unarchive.bodyText": "The selected platform record will be restored, do you want to proceed?",
+  "merchantPlatforms.list.dataTable.actions.unarchive.confirmText": "Confirm",
+  "merchantPlatforms.list.dataTable.actions.unarchive.cancelText": "Cancel",
+  "merchantPlatforms.list.dataTable.actions.unarchive.messages.success.messageHeader": "Attention",
+  "merchantPlatforms.list.dataTable.actions.unarchive.messages.success.messageBody": "The selected platform record was restored successfully",
+
+  "merchantPlatforms.forms.create.success.messageBody": "The new platform record was created successfully",
+  "merchantPlatforms.forms.create.createButtonText": "Create",
+  "merchantPlatforms.forms.create.cancelButtonText": "Cancel",
+
+  "merchantPlatforms.forms.edit.success.messageBody": "The new platform record was updated successfully",
+  "merchantPlatforms.forms.edit.updateButtonText": "Save changes",
+  "merchantPlatforms.forms.edit.cancelButtonText": "Cancel"
+}

@@ -1,0 +1,20 @@
+{
+  "navigation.tasksFeedLabel": "Dashboard",
+  "navigation.customerServiceTasksLabel": "Customer service",
+  "navigation.socialMediaTasksLabel": "Social media",
+  "navigation.saleTasksLabel": "Products",
+  "navigation.invoicesLabel": "Invoices",
+  "navigation.merchantPlatformsLabel": "Merchant platforms",
+  "navigation.paymentGatewaysLabel": "Payment methods",
+  "navigation.socialMediaPlatformsLabel": "Social media platforms",
+  "navigation.employeesLabel": "Employees",
+  "navigation.announcementsLabel": "Announcements",
+
+  "navigation.signInLabel": "Sign in",
+  "navigation.forgotPasswordLabel": "Forgot password",
+  "navigation.resetPasswordLabel": "Password reset",
+  "navigation.logoutLabel": "Sign out",
+
+  "navigation.locales.englishLabel": "English",
+  "navigation.locales.arabicLabel": "العربية"
+}

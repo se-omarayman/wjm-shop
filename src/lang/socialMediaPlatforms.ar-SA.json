@@ -1,0 +1,31 @@
+{
+  "socialMediaPlatforms.pages.list.title": "منصات التواصل الاجتماعي",
+
+  "socialMediaPlatforms.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "socialMediaPlatforms.list.dataTable.header.idColumnName": "#",
+  "socialMediaPlatforms.list.dataTable.header.nameColumnName": "الاسم",
+  "socialMediaPlatforms.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "socialMediaPlatforms.list.dataTable.actions.archive.headerText": "تنبيه",
+  "socialMediaPlatforms.list.dataTable.actions.archive.bodyText": "سوف يتم أرشفة سجل المنصة المحدد، هل تريد المتلبعة؟",
+  "socialMediaPlatforms.list.dataTable.actions.archive.confirmText": "تأكيد",
+  "socialMediaPlatforms.list.dataTable.actions.archive.cancelText": "إلغاء",
+  "socialMediaPlatforms.list.dataTable.actions.archive.messages.success.messageHeader": "تنبيه",
+  "socialMediaPlatforms.list.dataTable.actions.archive.messages.success.messageBody": "تمت أرشفة سجل المنصة المحدد بنجاح",
+
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.headerText": "تنبيه",
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.bodyText": "سوف يتم إستعادة سجل المنصة المحدد، هل تريد المتلبعة؟",
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.confirmText": "تأكيد",
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.cancelText": "إلغاء",
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.messages.success.messageHeader": "تنبيه",
+  "socialMediaPlatforms.list.dataTable.actions.unarchive.messages.success.messageBody": "تمت إستعادة سجل المنصة المحدد بنجاح",
+
+  "socialMediaPlatforms.forms.create.success.messageBody": "تمت إضافة سجل المنصة الجديد بنجاح",
+  "socialMediaPlatforms.forms.create.createButtonText": "إضافة",
+  "socialMediaPlatforms.forms.create.cancelButtonText": "إلغاء",
+
+  "socialMediaPlatforms.forms.edit.success.messageBody": "تم تحديث سجل المنصة الجديد بنجاح",
+  "socialMediaPlatforms.forms.edit.updateButtonText": "حفظ التغييرات",
+  "socialMediaPlatforms.forms.edit.cancelButtonText": "إلغاء"
+}

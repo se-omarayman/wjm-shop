@@ -1,0 +1,20 @@
+{
+  "navigation.tasksFeedLabel": "احدث المهام",
+  "navigation.customerServiceTasksLabel": "خدمة العملاء",
+  "navigation.socialMediaTasksLabel": "التواصل الإجتماعي",
+  "navigation.saleTasksLabel": "المنتجات",
+  "navigation.invoicesLabel": "الفواتير",
+  "navigation.merchantPlatformsLabel": "منصات التاجر",
+  "navigation.paymentGatewaysLabel": "بوابات الدفع",
+  "navigation.socialMediaPlatformsLabel": "منصات التواصل الإجتماعي",
+  "navigation.employeesLabel": "الموظفين",
+  "navigation.announcementsLabel": "التنبيهات",
+
+  "navigation.signInLabel": "تسجيل دخول",
+  "navigation.forgotPasswordLabel": "نسيت كلمة المرور",
+  "navigation.resetPasswordLabel": "استعادة كلمة المرور",
+  "navigation.logoutLabel": "تسجيل خروج",
+
+  "navigation.locales.englishLabel": "English",
+  "navigation.locales.arabicLabel": "العربية"
+}

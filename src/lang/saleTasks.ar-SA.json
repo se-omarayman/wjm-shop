@@ -1,0 +1,27 @@
+{
+  "saleTasks.pages.list.title": "مهام المبيعات",
+  "saleTasks.pages.edit.title": "مهام المبيعات - {title}",
+
+  "saleTasks.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "saleTasks.list.dataTable.header.idColumnName": "#",
+  "saleTasks.list.dataTable.header.nameColumnName": "الاسم",
+  "saleTasks.list.dataTable.header.serialNumberColumnName": "الرقم المتسلسل",
+  "saleTasks.list.dataTable.header.createdAtColumnName": "تاريخ الاضافة",
+  "saleTasks.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "saleTasks.list.dataTable.actions.destroy.headerText": "تنبيه",
+  "saleTasks.list.dataTable.actions.destroy.bodyText": "سوف يتم حذف سجل المهمة المحدد، هل تريد المتلبعة؟",
+  "saleTasks.list.dataTable.actions.destroy.confirmText": "تأكيد",
+  "saleTasks.list.dataTable.actions.destroy.cancelText": "إلغاء",
+  "saleTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "تنبيه",
+  "saleTasks.list.dataTable.actions.destroy.messages.success.messageBody": "تم حذف سجل المهمة المحدد بنجاح",
+
+  "saleTasks.forms.create.success.messageBody": "تمت إضافة سجل المهمة الجديد بنجاح",
+  "saleTasks.forms.create.createButtonText": "إضافة",
+  "saleTasks.forms.create.cancelButtonText": "إلغاء",
+
+  "saleTasks.forms.edit.success.messageBody": "تم تحديث سجل العميل بنجاح",
+  "saleTasks.forms.edit.updateButtonText": "حفظ التغييرات",
+  "saleTasks.forms.edit.cancelButtonText": "إلغاء"
+}

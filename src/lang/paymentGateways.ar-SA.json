@@ -1,0 +1,31 @@
+{
+  "paymentGateways.pages.list.title": "بوابات الدفع",
+
+  "paymentGateways.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "paymentGateways.list.dataTable.header.idColumnName": "#",
+  "paymentGateways.list.dataTable.header.nameColumnName": "الاسم",
+  "paymentGateways.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "paymentGateways.list.dataTable.actions.archive.headerText": "تنبيه",
+  "paymentGateways.list.dataTable.actions.archive.bodyText": "سوف يتم أرشفة سجل البوابة المحدد، هل تريد المتلبعة؟",
+  "paymentGateways.list.dataTable.actions.archive.confirmText": "تأكيد",
+  "paymentGateways.list.dataTable.actions.archive.cancelText": "إلغاء",
+  "paymentGateways.list.dataTable.actions.archive.messages.success.messageHeader": "تنبيه",
+  "paymentGateways.list.dataTable.actions.archive.messages.success.messageBody": "تمت أرشفة سجل البوابة المحدد بنجاح",
+
+  "paymentGateways.list.dataTable.actions.unarchive.headerText": "تنبيه",
+  "paymentGateways.list.dataTable.actions.unarchive.bodyText": "سوف يتم إستعادة سجل البوابة المحدد، هل تريد المتلبعة؟",
+  "paymentGateways.list.dataTable.actions.unarchive.confirmText": "تأكيد",
+  "paymentGateways.list.dataTable.actions.unarchive.cancelText": "إلغاء",
+  "paymentGateways.list.dataTable.actions.unarchive.messages.success.messageHeader": "تنبيه",
+  "paymentGateways.list.dataTable.actions.unarchive.messages.success.messageBody": "تمت إستعادة سجل البوابة المحدد بنجاح",
+
+  "paymentGateways.forms.create.success.messageBody": "تمت إضافة سجل البوابة الجديد بنجاح",
+  "paymentGateways.forms.create.createButtonText": "إضافة",
+  "paymentGateways.forms.create.cancelButtonText": "إلغاء",
+
+  "paymentGateways.forms.edit.success.messageBody": "تم تحديث سجل البوابة الجديد بنجاح",
+  "paymentGateways.forms.edit.updateButtonText": "حفظ التغييرات",
+  "paymentGateways.forms.edit.cancelButtonText": "إلغاء"
+}

@@ -1,0 +1,27 @@
+{
+  "customerServiceTasks.pages.list.title": "Customer service tasks",
+  "customerServiceTasks.pages.edit.title": "Customer service tasks - {title}",
+
+  "customerServiceTasks.list.dataTable.header.createButtonText": "Add record",
+
+  "customerServiceTasks.list.dataTable.header.idColumnName": "#",
+  "customerServiceTasks.list.dataTable.header.titleColumnName": "TITLE",
+  "customerServiceTasks.list.dataTable.header.customerNameColumnName": "CUSTOMER NAME",
+  "customerServiceTasks.list.dataTable.header.createdAtColumnName": "CREATED AT",
+  "customerServiceTasks.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "customerServiceTasks.list.dataTable.actions.destroy.headerText": "Attention",
+  "customerServiceTasks.list.dataTable.actions.destroy.bodyText": "The selected task record will be removed, do you want to proceed?",
+  "customerServiceTasks.list.dataTable.actions.destroy.confirmText": "Confirm",
+  "customerServiceTasks.list.dataTable.actions.destroy.cancelText": "Cancel",
+  "customerServiceTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "Attention",
+  "customerServiceTasks.list.dataTable.actions.destroy.messages.success.messageBody": "The selected task record was removed successfully",
+
+  "customerServiceTasks.forms.create.success.messageBody": "The new task record was created successfully",
+  "customerServiceTasks.forms.create.createButtonText": "Create",
+  "customerServiceTasks.forms.create.cancelButtonText": "Cancel",
+
+  "customerServiceTasks.forms.edit.success.messageBody": "The task record was updated successfully",
+  "customerServiceTasks.forms.edit.updateButtonText": "Save changes",
+  "customerServiceTasks.forms.edit.cancelButtonText": "Cancel"
+}

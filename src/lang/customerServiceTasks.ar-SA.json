@@ -1,0 +1,27 @@
+{
+  "customerServiceTasks.pages.list.title": "مهام خدمة العملاء",
+  "customerServiceTasks.pages.edit.title": "مهام خدمة العملاء - {title}",
+
+  "customerServiceTasks.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "customerServiceTasks.list.dataTable.header.idColumnName": "#",
+  "customerServiceTasks.list.dataTable.header.titleColumnName": "العنوان",
+  "customerServiceTasks.list.dataTable.header.customerNameColumnName": "اسم العميل",
+  "customerServiceTasks.list.dataTable.header.createdAtColumnName": "تاريخ الاضافة",
+  "customerServiceTasks.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "customerServiceTasks.list.dataTable.actions.destroy.headerText": "تنبيه",
+  "customerServiceTasks.list.dataTable.actions.destroy.bodyText": "سوف يتم حذف سجل المهمة المحدد، هل تريد المتلبعة؟",
+  "customerServiceTasks.list.dataTable.actions.destroy.confirmText": "تأكيد",
+  "customerServiceTasks.list.dataTable.actions.destroy.cancelText": "إلغاء",
+  "customerServiceTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "تنبيه",
+  "customerServiceTasks.list.dataTable.actions.destroy.messages.success.messageBody": "تم حذف سجل المهمة المحدد بنجاح",
+
+  "customerServiceTasks.forms.create.success.messageBody": "تمت إضافة سجل المهمة الجديد بنجاح",
+  "customerServiceTasks.forms.create.createButtonText": "إضافة",
+  "customerServiceTasks.forms.create.cancelButtonText": "إلغاء",
+
+  "customerServiceTasks.forms.edit.success.messageBody": "تم تحديث سجل العميل بنجاح",
+  "customerServiceTasks.forms.edit.updateButtonText": "حفظ التغييرات",
+  "customerServiceTasks.forms.edit.cancelButtonText": "إلغاء"
+}

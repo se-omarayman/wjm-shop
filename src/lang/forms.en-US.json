@@ -1,0 +1,129 @@
+{
+  "__COMMENT": "GENERAL",
+  "forms.input.name.labelText": "Name",
+  "forms.input.name.errorMessages.required": "Enter a name",
+  "forms.input.name.errorMessages.max": "The name may not be greater than 200 characters",
+
+  "forms.input.name_english.labelText": "English name",
+  "forms.input.name_english.errorMessages.required": "Enter English name",
+  "forms.input.name_english.errorMessages.max": "The English name may not be greater than 200 characters",
+
+  "forms.input.name_arabic.labelText": "Arabic name",
+  "forms.input.name_arabic.errorMessages.required": "Enter Arabic name",
+  "forms.input.name_arabic.errorMessages.max": "The Arabic name may not be greater than 200 characters",
+
+  "forms.input.email.labelText": "Email address",
+  "forms.input.email.errorMessages.required": "Enter an email address",
+  "forms.input.email.errorMessages.email": "This must be a valid email address",
+  "forms.input.email.errorMessages.max": "The email may not be greater than 200 characters",
+
+  "forms.input.title.labelText": "Title",
+  "forms.input.title.errorMessages.required": "Enter a title",
+  "forms.input.title.errorMessages.max": "The title may not be greater than 200 characters",
+
+  "forms.input.description.labelText": "Description",
+  "forms.input.description.errorMessages.required": "Enter a description",
+  "forms.input.description.errorMessages.max": "The description may not be greater than 16000 characters",
+
+  "forms.input.rememberMe.labelText": "Remember Me",
+
+  "__COMMENT": "CREDENTIALS",
+  "forms.input.current_password.labelText": "Current password",
+  "forms.input.current_password.errorMessages.required": "Enter your current password",
+
+  "forms.input.password.labelText": "Password",
+  "forms.input.password.errorMessages.required": "Enter a password",
+  "forms.input.password.errorMessages.min": "Password must be at least 6 characters",
+
+  "forms.input.password_confirmation.labelText": "Password confirmation",
+  "forms.input.password_confirmation.errorMessages.required": "Enter password confirmation",
+  "forms.input.password_confirmation.errorMessages.passwordConfirmation": "The password confirmation does not match",
+
+  "__COMMENT": "INVOICES",
+  "forms.input.invoices.status.options.fresh.labelText": "Fresh",
+  "forms.input.invoices.status.options.delivered.labelText": "Delivered",
+  "forms.input.invoices.status.options.cancelled.labelText": "Cancelled",
+
+  "forms.input.invoices.search.labelText": "Search",
+
+  "forms.input.invoices.status.labelText": "Status",
+  "forms.input.invoices.status.placeholder": "Select invoice status...",
+  "forms.input.invoices.status.errorMessages.required": "Select an invoice status",
+
+  "forms.input.invoices.merchantPlatform.labelText": "Merchant platform",
+  "forms.input.invoices.merchantPlatform.placeholder": "Select a merchant platform...",
+  "forms.input.invoices.merchantPlatform.errorMessages.required": "Select a merchant platform",
+
+  "forms.input.invoices.paymentGateway.labelText": "Payment gateway",
+  "forms.input.invoices.paymentGateway.placeholder": "Select a payment gateway...",
+  "forms.input.invoices.paymentGateway.errorMessages.required": "Select a payment gateway",
+
+  "forms.input.invoices.customerName.labelText": "Customer name",
+  "forms.input.invoices.customerName.errorMessages.required": "Enter a customer name",
+  "forms.input.invoices.customerName.errorMessages.max": "The customer name may not be greater than 200 characters",
+
+  "forms.input.invoices.orderId.labelText": "Order ID",
+  "forms.input.invoices.orderId.errorMessages.required": "Enter an order ID",
+  "forms.input.invoices.orderId.errorMessages.max": "The order ID may not be greater than 200 characters",
+
+  "forms.input.invoices.buyingPrice.labelText": "Buying price",
+  "forms.input.invoices.buyingPrice.errorMessages.required": "Enter a price",
+  "forms.input.invoices.buyingPrice.errorMessages.positiveNumber": "The price must be a positive number",
+
+  "forms.input.invoices.sellingPrice.labelText": "Selling price",
+  "forms.input.invoices.sellingPrice.errorMessages.required": "Enter a price",
+  "forms.input.invoices.sellingPrice.errorMessages.positiveNumber": "The price must be a positive number",
+
+  "forms.input.invoices.date.labelText": "Date",
+  "forms.input.invoices.date.errorMessages.required": "Enter a date",
+
+  "forms.input.invoices.dateFrom.labelText": "Date from",
+  "forms.input.invoices.dateFrom.errorMessages.required": "Enter a date from",
+
+  "forms.input.invoices.dateTo.labelText": "Date to",
+  "forms.input.invoices.dateTo.errorMessages.required": "Enter a date to",
+
+  "__COMMENT": "ANNOUNCEMENTS",
+  "forms.input.announcements.startsAt.labelText": "Start date",
+  "forms.input.announcements.startsAt.errorMessages.required": "Enter a date",
+
+  "forms.input.announcements.endsAt.labelText": "End date",
+  "forms.input.announcements.endsAt.errorMessages.required": "Enter a date",
+
+  "forms.input.announcement.labelText": "Announcement",
+  "forms.input.announcement.errorMessages.required": "Enter a announcement",
+  "forms.input.announcement.errorMessages.max": "The announcement may not be greater than 1000 characters",
+
+  "__COMMENT": "CUSTOMER_SERVICE_TASKS",
+  "forms.input.customerServiceTasks.customerName.labelText": "Customer name",
+  "forms.input.customerServiceTasks.customerName.errorMessages.required": "Enter a customer name",
+  "forms.input.customerServiceTasks.customerName.errorMessages.max": "The customer name may not be greater than 200 characters",
+
+  "forms.input.customerServiceTasks.orderId.labelText": "Order ID",
+  "forms.input.customerServiceTasks.orderId.errorMessages.required": "Enter an order ID",
+  "forms.input.customerServiceTasks.orderId.errorMessages.max": "The order ID may not be greater than 200 characters",
+
+  "__COMMENT": "SALE_TASKS",
+  "forms.input.saleTasks.image.labelText": "Image",
+  "forms.input.saleTasks.image.errorMessages.required": "Select an image",
+
+  "forms.input.saleTasks.url.labelText": "Product URL",
+  "forms.input.saleTasks.url.errorMessages.required": "Enter a product url",
+  "forms.input.saleTasks.url.errorMessages.max": "The product url may not be greater than 200 characters",
+
+  "forms.input.saleTasks.serialNumber.labelText": "Serial number",
+  "forms.input.saleTasks.serialNumber.errorMessages.required": "Enter a serial number",
+  "forms.input.saleTasks.serialNumber.errorMessages.max": "The serial number may not be greater than 200 characters",
+
+  "__COMMENT": "SOCIAL_MEDIA_TASKS",
+  "forms.input.socialMediaTasks.platform.labelText": "Platform",
+  "forms.input.socialMediaTasks.platform.placeholder": "Select a platform...",
+  "forms.input.socialMediaTasks.platform.errorMessages.required": "Select a platform",
+
+  "forms.input.socialMediaTasks.image.labelText": "Image",
+  "forms.input.socialMediaTasks.image.errorMessages.required": "Select an image",
+
+  "forms.input.socialMediaTasks.url.labelText": "Post URL",
+  "forms.input.socialMediaTasks.url.errorMessages.required": "Enter a post url",
+  "forms.input.socialMediaTasks.url.errorMessages.max": "The post url may not be greater than 200 characters"
+}

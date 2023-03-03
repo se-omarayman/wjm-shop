@@ -1,0 +1,40 @@
+{
+  "invoices.pages.list.title": "الفواتير",
+  "invoices.pages.edit.title": "الفواتير - {customer_name}",
+
+  "invoices.list.dataTable.header.createButtonText": "إضافة سجل",
+  "invoices.list.dataTable.header.downloadButtonText": "تحميل",
+  "invoices.list.dataTable.header.searchButtonText": "ابحث",
+
+  "invoices.stats.totalSellAmount.labelText": "اجمالي المبيعات",
+  "invoices.stats.totalBuyAmount.labelText": "اجمالي المشتريات",
+  "invoices.stats.totalNetProfit.labelText": "اجمالي الارباح",
+
+  "invoices.list.dataTable.header.idColumnName": "#",
+  "invoices.list.dataTable.header.customerNameColumnName": "العميل",
+  "invoices.list.dataTable.header.orderIdColumnName": "رقم الطلب",
+  "invoices.list.dataTable.header.merchantPlatformColumnName": "المنصة",
+  "invoices.list.dataTable.header.netProfitColumnName": "صافي الربح",
+  "invoices.list.dataTable.header.dateColumnName": "التاريخ",
+  "invoices.list.dataTable.header.statusColumnName": "الحالة",
+  "invoices.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "invoices.status.fresh.labelText": "جديد",
+  "invoices.status.delivered.labelText": "تم التوصيل",
+  "invoices.status.cancelled.labelText": "ملغي",
+
+  "invoices.list.dataTable.actions.destroy.headerText": "تنبيه",
+  "invoices.list.dataTable.actions.destroy.bodyText": "سوف يتم حذف سجل الفاتورة المحدد، هل تريد المتلبعة؟",
+  "invoices.list.dataTable.actions.destroy.confirmText": "تأكيد",
+  "invoices.list.dataTable.actions.destroy.cancelText": "إلغاء",
+  "invoices.list.dataTable.actions.destroy.messages.success.messageHeader": "تنبيه",
+  "invoices.list.dataTable.actions.destroy.messages.success.messageBody": "تم حذف سجل الفاتورة المحدد بنجاح",
+
+  "invoices.forms.create.success.messageBody": "تمت إضافة سجل الفاتورة الجديد بنجاح",
+  "invoices.forms.create.createButtonText": "إضافة",
+  "invoices.forms.create.cancelButtonText": "إلغاء",
+
+  "invoices.forms.edit.success.messageBody": "تم تحديث سجل العميل بنجاح",
+  "invoices.forms.edit.updateButtonText": "حفظ التغييرات",
+  "invoices.forms.edit.cancelButtonText": "إلغاء"
+}

@@ -1,0 +1,28 @@
+{
+  "announcements.pages.list.title": "Announcements",
+  "announcements.pages.edit.title": "Announcements - {title}",
+
+  "announcements.list.dataTable.header.createButtonText": "Add record",
+
+  "announcements.list.dataTable.header.idColumnName": "#",
+  "announcements.list.dataTable.header.announcementColumnName": "ANNOUNCEMENT",
+  "announcements.list.dataTable.header.startAtColumnName": "STARTS AT",
+  "announcements.list.dataTable.header.endAtColumnName": "END AT",
+  "announcements.list.dataTable.header.createdAtColumnName": "CREATED AT",
+  "announcements.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "announcements.list.dataTable.actions.destroy.headerText": "Attention",
+  "announcements.list.dataTable.actions.destroy.bodyText": "The selected announcement record will be removed, do you want to proceed?",
+  "announcements.list.dataTable.actions.destroy.confirmText": "Confirm",
+  "announcements.list.dataTable.actions.destroy.cancelText": "Cancel",
+  "announcements.list.dataTable.actions.destroy.messages.success.messageHeader": "Attention",
+  "announcements.list.dataTable.actions.destroy.messages.success.messageBody": "The selected announcement record was removed successfully",
+
+  "announcements.forms.create.success.messageBody": "The new announcement record was created successfully",
+  "announcements.forms.create.createButtonText": "Create",
+  "announcements.forms.create.cancelButtonText": "Cancel",
+
+  "announcements.forms.edit.success.messageBody": "The announcement record was updated successfully",
+  "announcements.forms.edit.updateButtonText": "Save changes",
+  "announcements.forms.edit.cancelButtonText": "Cancel"
+}

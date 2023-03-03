@@ -1,0 +1,41 @@
+{
+  "employees.pages.list.title": "Employees",
+  "employees.pages.edit.title": "Employees - {name}",
+
+  "employees.list.dataTable.header.createButtonText": "Add record",
+
+  "employees.list.dataTable.header.idColumnName": "#",
+  "employees.list.dataTable.header.nameColumnName": "NAME",
+  "employees.list.dataTable.header.emailColumnName": "EMAIL ADDRESS",
+  "employees.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "employees.list.dataTable.actions.archive.headerText": "Attention",
+  "employees.list.dataTable.actions.archive.bodyText": "The selected employee record will be archived, do you want to proceed?",
+  "employees.list.dataTable.actions.archive.confirmText": "Confirm",
+  "employees.list.dataTable.actions.archive.cancelText": "Cancel",
+  "employees.list.dataTable.actions.archive.messages.success.messageHeader": "Attention",
+  "employees.list.dataTable.actions.archive.messages.success.messageBody": "The selected employee record was archived successfully",
+
+  "employees.list.dataTable.actions.unarchive.headerText": "Attention",
+  "employees.list.dataTable.actions.unarchive.bodyText": "The selected employee record will be restored, do you want to proceed?",
+  "employees.list.dataTable.actions.unarchive.confirmText": "Confirm",
+  "employees.list.dataTable.actions.unarchive.cancelText": "Cancel",
+  "employees.list.dataTable.actions.unarchive.messages.success.messageHeader": "Attention",
+  "employees.list.dataTable.actions.unarchive.messages.success.messageBody": "The selected employee record was restored successfully",
+
+  "employees.tabs.information.headerText": "Information",
+  "employees.tabs.customerService.headerText": "Customer service",
+  "employees.tabs.socialMedia.headerText": "Social media",
+  "employees.tabs.sale.headerText": "Sale",
+
+  "employees.forms.create.success.messageBody": "The new employee record was created successfully",
+  "employees.forms.create.createButtonText": "Create",
+  "employees.forms.create.cancelButtonText": "Cancel",
+
+  "employees.forms.edit.personalInformation.headerText": "Personal Information",
+  "employees.forms.edit.security.headerText": "Security",
+  "employees.forms.edit.permissions.headerText": "Permissions",
+  "employees.forms.edit.success.messageBody": "The employee record was updated successfully",
+  "employees.forms.edit.updateButtonText": "Save changes",
+  "employees.forms.edit.cancelButtonText": "Cancel"
+}

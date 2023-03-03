@@ -1,0 +1,23 @@
+{
+    "dashboard.page.title": "لوحة التحكم",
+
+    "dashboard.page.headerText": "اهلا {name}، مرحبا بعودتك",
+
+    "dashboard.general.totalShipments.labelText": "اجمالي الشحنات",
+    "dashboard.general.monthlyShipments.labelText": "عدد الشحنات هذا الشهر",
+    "dashboard.general.customers.labelText": "اجمالي العملاء",
+
+    "dashboard.finance.income.totalLabelText": "اجمالي تكلفة الشحنات",
+    "dashboard.finance.income.thisMonthLabelText": "اجمالي تكلفة الشحنات الشهرية",
+
+    "dashboard.shippingCompanies.headerText": "شركات الشحن",
+    "dashboard.shippingCompanies.loadingPlaceholderText": "جاري التحميل...",
+
+    "dashboard.bestSellingProducts.headerText": "المنتجات الاكثر مبيعا",
+    "dashboard.bestSellingProducts.emptyPlaceholderText": "ابدأ في إضافة الشحنات باستخدام المنتجات",
+    "dashboard.bestSellingProducts.table.nameColumnName": "الاسم",
+    "dashboard.bestSellingProducts.table.weightColumnName": "الوزن",
+
+    "dashboard.latestProducts.headerText": "أحدث المنتجات",
+    "dashboard.latestProducts.emptyPlaceholderText": "البدء في اضافة منتجاتك يجعل انشاء الشحنات اسهل كما يمكنك من تتبع احصائيات المبيعات والارباح"
+}

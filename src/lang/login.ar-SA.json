@@ -1,0 +1,12 @@
+{
+  "authentication.login.page.title": "تسجيل الدخول",
+
+  "authentication.login.form.headerText": "مرحبا بعودتك",
+  "authentication.login.form.subHeaderText": "ادخل البريد الالكتروني وكلمة المرور لتسجيل الدخول",
+
+  "authentication.login.messages.invalidCredentials": "البريد الالكتروني او/و كلمة المرور غير صحيحين",
+
+  "authentication.login.links.forgotPassword": "نسيت كلمة المرور؟",
+
+  "authentication.login.loginButtonText": "تسجيل دخول"
+}

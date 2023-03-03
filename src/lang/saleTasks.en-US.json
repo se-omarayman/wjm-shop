@@ -1,0 +1,27 @@
+{
+  "saleTasks.pages.list.title": "Sale tasks",
+  "saleTasks.pages.edit.title": "Sale tasks - {title}",
+
+  "saleTasks.list.dataTable.header.createButtonText": "Add record",
+
+  "saleTasks.list.dataTable.header.idColumnName": "#",
+  "saleTasks.list.dataTable.header.nameColumnName": "NAME",
+  "saleTasks.list.dataTable.header.serialNumberColumnName": "SERIAL NUMBER",
+  "saleTasks.list.dataTable.header.createdAtColumnName": "CREATED AT",
+  "saleTasks.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "saleTasks.list.dataTable.actions.destroy.headerText": "Attention",
+  "saleTasks.list.dataTable.actions.destroy.bodyText": "The selected task record will be removed, do you want to proceed?",
+  "saleTasks.list.dataTable.actions.destroy.confirmText": "Confirm",
+  "saleTasks.list.dataTable.actions.destroy.cancelText": "Cancel",
+  "saleTasks.list.dataTable.actions.destroy.messages.success.messageHeader": "Attention",
+  "saleTasks.list.dataTable.actions.destroy.messages.success.messageBody": "The selected task record was removed successfully",
+
+  "saleTasks.forms.create.success.messageBody": "The new task record was created successfully",
+  "saleTasks.forms.create.createButtonText": "Create",
+  "saleTasks.forms.create.cancelButtonText": "Cancel",
+
+  "saleTasks.forms.edit.success.messageBody": "The task record was updated successfully",
+  "saleTasks.forms.edit.updateButtonText": "Save changes",
+  "saleTasks.forms.edit.cancelButtonText": "Cancel"
+}

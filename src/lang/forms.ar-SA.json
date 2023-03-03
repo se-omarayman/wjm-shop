@@ -1,0 +1,129 @@
+{
+  "__COMMENT": "GENERAL",
+  "forms.input.name.labelText": "الاسم",
+  "forms.input.name.errorMessages.required": "ادخل الاسم",
+  "forms.input.name.errorMessages.max": "يجب ان لا يتعدى طول الاسم 200 حرف",
+
+  "forms.input.name_english.labelText": "الاسم بالانجليزية",
+  "forms.input.name_english.errorMessages.required": "ادخل الاسم بالانجليزية",
+  "forms.input.name_english.errorMessages.max": "يجب ان لا يتعدى طول الاسم بالانجليزية 200 حرف",
+
+  "forms.input.name_arabic.labelText": "الاسم بالعربية",
+  "forms.input.name_arabic.errorMessages.required": "ادخل الاسم بالعربية",
+  "forms.input.name_arabic.errorMessages.max": "يجب ان لا يتعدى طول الاسم بالعربية 200 حرف",
+
+  "forms.input.email.labelText": "البريد الالكتروني",
+  "forms.input.email.errorMessages.required": "ادخل البريد الالكتروني",
+  "forms.input.email.errorMessages.email": "البريد الالكتروني غير صالح",
+  "forms.input.email.errorMessages.max": "يجب ان لا يتجاوز طول البريد الالكتروني 200 حرف",
+
+  "forms.input.title.labelText": "العنوان",
+  "forms.input.title.errorMessages.required": "ادخل العنوان",
+  "forms.input.title.errorMessages.max": "يجب ان لا يتجاوز طول العنوان 200 حرف",
+
+  "forms.input.description.labelText": "التفاصيل",
+  "forms.input.description.errorMessages.required": "ادخل التفاصيل",
+  "forms.input.description.errorMessages.max": "يجب ان لا يتجاوز طول التفاصيل 16000 حرف",
+
+  "forms.input.rememberMe.labelText": "تذكرني",
+
+  "__COMMENT": "CREDENTIALS",
+  "forms.input.current_password.labelText": "كلمة المرور الحالية",
+  "forms.input.current_password.errorMessages.required": "ادخل كلمة المرور الحالية",
+
+  "forms.input.password.labelText": "كلمة المرور",
+  "forms.input.password.errorMessages.required": "ادخل كلمة المرور",
+  "forms.input.password.errorMessages.min": "يبج ان تحتوي كلمة المرور على 6 احرف على الاقل",
+
+  "forms.input.password_confirmation.labelText": "تاكيد كلمة المرور",
+  "forms.input.password_confirmation.errorMessages.required": "ادخل تاكيد كلمة المرور",
+  "forms.input.password_confirmation.errorMessages.passwordConfirmation": "كلمة المرور وتاكيد كلمة المرور لا يتطابقان",
+
+  "__COMMENT": "INVOICES",
+  "forms.input.invoices.status.options.fresh.labelText": "جديد",
+  "forms.input.invoices.status.options.delivered.labelText": "تم التوصيل",
+  "forms.input.invoices.status.options.cancelled.labelText": "ملغي",
+
+  "forms.input.invoices.search.labelText": "ابحث",
+
+  "forms.input.invoices.status.labelText": "حالة الفاتورة",
+  "forms.input.invoices.status.placeholder": "رجاء اختر الحالة...",
+  "forms.input.invoices.status.errorMessages.required": "اختر حالة الفاتورة",
+
+  "forms.input.invoices.merchantPlatform.labelText": "منصة التاجر",
+  "forms.input.invoices.merchantPlatform.placeholder": "رجاء اختر المنصة...",
+  "forms.input.invoices.merchantPlatform.errorMessages.required": "اختر المنصة",
+
+  "forms.input.invoices.paymentGateway.labelText": "بوابة الدفع",
+  "forms.input.invoices.paymentGateway.placeholder": "رجاء اختر البوابة...",
+  "forms.input.invoices.paymentGateway.errorMessages.required": "اختر البوابة",
+
+  "forms.input.invoices.customerName.labelText": "اسم العميل",
+  "forms.input.invoices.customerName.errorMessages.required": "ادخل اسم العميل",
+  "forms.input.invoices.customerName.errorMessages.max": "يجب ان لا يتعدى طول اسم العميل 200 حرف",
+
+  "forms.input.invoices.orderId.labelText": "رقم الطلب",
+  "forms.input.invoices.orderId.errorMessages.required": "ادخل رقم الطلب",
+  "forms.input.invoices.orderId.errorMessages.max": "يجب ان لا يتعدى طول رقم الطلب 200 حرف",
+
+  "forms.input.invoices.buyingPrice.labelText": "سعر الشراء",
+  "forms.input.invoices.buyingPrice.errorMessages.required": "ادخل السعر",
+  "forms.input.invoices.buyingPrice.errorMessages.positiveNumber": "يجب ان يكون السعر عدد موجب",
+
+  "forms.input.invoices.sellingPrice.labelText": "سعر البيع",
+  "forms.input.invoices.sellingPrice.errorMessages.required": "ادخل السعر",
+  "forms.input.invoices.sellingPrice.errorMessages.positiveNumber": "يجب ان يكون السعر عدد موجب",
+
+  "forms.input.invoices.date.labelText": "التاريخ",
+  "forms.input.invoices.date.errorMessages.required": "ادخل التاريخ",
+
+  "forms.input.invoices.dateFrom.labelText": "التاريخ (من)",
+  "forms.input.invoices.dateFrom.errorMessages.required": "ادخل تاريخ البداية",
+
+  "forms.input.invoices.dateTo.labelText": "التاريخ (الى)",
+  "forms.input.invoices.dateTo.errorMessages.required": "ادخل تاريخ النهاية",
+
+  "__COMMENT": "ANNOUNCEMENTS",
+  "forms.input.announcements.startsAt.labelText": "تاريخ البداية",
+  "forms.input.announcements.startsAt.errorMessages.required": "ادخل التاريخ",
+
+  "forms.input.announcements.endsAt.labelText": "تاريخ النهاية",
+  "forms.input.announcements.endsAt.errorMessages.required": "ادخل التاريخ",
+
+  "forms.input.announcement.labelText": "التنبيه",
+  "forms.input.announcement.errorMessages.required": "ادخل التنبيه",
+  "forms.input.announcement.errorMessages.max": "يجب ان لا يتجاوز طول التنبيه 1000 حرف",
+
+  "__COMMENT": "CUSTOMER_SERVICE_TASKS",
+  "forms.input.customerServiceTasks.customerName.labelText": "اسم العميل",
+  "forms.input.customerServiceTasks.customerName.errorMessages.required": "ادخل اسم العميل",
+  "forms.input.customerServiceTasks.customerName.errorMessages.max": "يجب ان لا يتعدى طول اسم العميل 200 حرف",
+
+  "forms.input.customerServiceTasks.orderId.labelText": "رقم الطلب",
+  "forms.input.customerServiceTasks.orderId.errorMessages.required": "ادخل رقم الطلب",
+  "forms.input.customerServiceTasks.orderId.errorMessages.max": "يجب ان لا يتعدى طول رقم الطلب 200 حرف",
+
+  "__COMMENT": "SALE_TASKS",
+  "forms.input.saleTasks.image.labelText": "الصورة",
+  "forms.input.saleTasks.image.errorMessages.required": "اختر الصورة",
+
+  "forms.input.saleTasks.url.labelText": "رابط المنتج",
+  "forms.input.saleTasks.url.errorMessages.required": "ادخل رابط المنتج",
+  "forms.input.saleTasks.url.errorMessages.max": "يجب ان لا يتعدى طول رابط المنتج 200 حرف",
+
+  "forms.input.saleTasks.serialNumber.labelText": "الرقم المتسلسل",
+  "forms.input.saleTasks.serialNumber.errorMessages.required": "ادخل الرقم المتسلسل",
+  "forms.input.saleTasks.serialNumber.errorMessages.max": "يجب ان لا يتعدى طول الرقم المتسلسل 200 حرف",
+
+  "__COMMENT": "SOCIAL_MEDIA_TASKS",
+  "forms.input.socialMediaTasks.platform.labelText": "المنصة",
+  "forms.input.socialMediaTasks.platform.placeholder": "رجاء اختر المنصة...",
+  "forms.input.socialMediaTasks.platform.errorMessages.required": "اختر المنصة",
+
+  "forms.input.socialMediaTasks.image.labelText": "الصورة",
+  "forms.input.socialMediaTasks.image.errorMessages.required": "اختر الصورة",
+
+  "forms.input.socialMediaTasks.url.labelText": "رابط المنشور",
+  "forms.input.socialMediaTasks.url.errorMessages.required": "ادخل رابط المنشور",
+  "forms.input.socialMediaTasks.url.errorMessages.max": "يجب ان لا يتعدى طول رابط المنشور 200 حرف"
+}

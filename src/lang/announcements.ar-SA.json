@@ -1,0 +1,28 @@
+{
+  "announcements.pages.list.title": "التنبيهات",
+  "announcements.pages.edit.title": "التنبيهات - {title}",
+
+  "announcements.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "announcements.list.dataTable.header.idColumnName": "#",
+  "announcements.list.dataTable.header.announcementColumnName": "التنبيه",
+  "announcements.list.dataTable.header.startAtColumnName": "يبدأ يف",
+  "announcements.list.dataTable.header.endAtColumnName": "ينتهي",
+  "announcements.list.dataTable.header.createdAtColumnName": "تاريخ الاضافة",
+  "announcements.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "announcements.list.dataTable.actions.destroy.headerText": "تنبيه",
+  "announcements.list.dataTable.actions.destroy.bodyText": "سوف يتم حذف سجل التنبيه المحدد، هل تريد المتلبعة؟",
+  "announcements.list.dataTable.actions.destroy.confirmText": "تأكيد",
+  "announcements.list.dataTable.actions.destroy.cancelText": "إلغاء",
+  "announcements.list.dataTable.actions.destroy.messages.success.messageHeader": "تنبيه",
+  "announcements.list.dataTable.actions.destroy.messages.success.messageBody": "تم حذف سجل التنبيه المحدد بنجاح",
+
+  "announcements.forms.create.success.messageBody": "تمت إضافة سجل التنبيه الجديد بنجاح",
+  "announcements.forms.create.createButtonText": "إضافة",
+  "announcements.forms.create.cancelButtonText": "إلغاء",
+
+  "announcements.forms.edit.success.messageBody": "تم تحديث سجل العميل بنجاح",
+  "announcements.forms.edit.updateButtonText": "حفظ التغييرات",
+  "announcements.forms.edit.cancelButtonText": "إلغاء"
+}

@@ -1,0 +1,41 @@
+{
+  "employees.pages.list.title": "الموظفين",
+  "employees.pages.edit.title": "الموظفين - {name}",
+
+  "employees.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "employees.list.dataTable.header.idColumnName": "#",
+  "employees.list.dataTable.header.nameColumnName": "الاسم",
+  "employees.list.dataTable.header.emailColumnName": "البريد الإلكتروني",
+  "employees.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "employees.list.dataTable.actions.archive.headerText": "تنبيه",
+  "employees.list.dataTable.actions.archive.bodyText": "سوف يتم أرشفة سجل الموظف المحدد، هل تريد المتلبعة؟",
+  "employees.list.dataTable.actions.archive.confirmText": "تأكيد",
+  "employees.list.dataTable.actions.archive.cancelText": "إلغاء",
+  "employees.list.dataTable.actions.archive.messages.success.messageHeader": "تنبيه",
+  "employees.list.dataTable.actions.archive.messages.success.messageBody": "تمت أرشفة سجل الموظف المحدد بنجاح",
+
+  "employees.list.dataTable.actions.unarchive.headerText": "تنبيه",
+  "employees.list.dataTable.actions.unarchive.bodyText": "سوف يتم إستعادة سجل الموظف المحدد، هل تريد المتلبعة؟",
+  "employees.list.dataTable.actions.unarchive.confirmText": "تأكيد",
+  "employees.list.dataTable.actions.unarchive.cancelText": "إلغاء",
+  "employees.list.dataTable.actions.unarchive.messages.success.messageHeader": "تنبيه",
+  "employees.list.dataTable.actions.unarchive.messages.success.messageBody": "تمت إستعادة سجل الموظف المحدد بنجاح",
+
+  "employees.tabs.information.headerText": "البيانات",
+  "employees.tabs.customerService.headerText": "خدمة العملاء",
+  "employees.tabs.socialMedia.headerText": "منصات التواصل الاجتماعي",
+  "employees.tabs.sale.headerText": "المبيعات",
+
+  "employees.forms.create.success.messageBody": "تمت إضافة سجل الموظف الجديد بنجاح",
+  "employees.forms.create.createButtonText": "إضافة",
+  "employees.forms.create.cancelButtonText": "إلغاء",
+
+  "employees.forms.edit.personalInformation.headerText": "البيانات الشخصية",
+  "employees.forms.edit.security.headerText": "إعدادات الأمان",
+  "employees.forms.edit.permissions.headerText": "الصلاحيات",
+  "employees.forms.edit.success.messageBody": "تم تحديث سجل الموظف بنجاح",
+  "employees.forms.edit.updateButtonText": "حفظ التغييرات",
+  "employees.forms.edit.cancelButtonText": "إلغاء"
+}

@@ -1,0 +1,40 @@
+{
+  "invoices.pages.list.title": "Invoices",
+  "invoices.pages.edit.title": "Invoices - {customer_name}",
+
+  "invoices.stats.totalSellAmount.labelText": "Total sales",
+  "invoices.stats.totalBuyAmount.labelText": "Total purchases",
+  "invoices.stats.totalNetProfit.labelText": "Total net profit",
+
+  "invoices.list.dataTable.header.createButtonText": "Add record",
+  "invoices.list.dataTable.header.downloadButtonText": "Download",
+  "invoices.list.dataTable.header.searchButtonText": "Search",
+
+  "invoices.list.dataTable.header.idColumnName": "#",
+  "invoices.list.dataTable.header.customerNameColumnName": "CUSTOMER",
+  "invoices.list.dataTable.header.orderIdColumnName": "ORDER ID",
+  "invoices.list.dataTable.header.merchantPlatformColumnName": "PLATFORM",
+  "invoices.list.dataTable.header.netProfitColumnName": "NET PROFIT",
+  "invoices.list.dataTable.header.dateColumnName": "DATE",
+  "invoices.list.dataTable.header.statusColumnName": "STATUS",
+  "invoices.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "invoices.status.fresh.labelText": "Fresh",
+  "invoices.status.delivered.labelText": "Delivered",
+  "invoices.status.cancelled.labelText": "Cancelled",
+
+  "invoices.list.dataTable.actions.destroy.headerText": "Attention",
+  "invoices.list.dataTable.actions.destroy.bodyText": "The selected invoice record will be removed, do you want to proceed?",
+  "invoices.list.dataTable.actions.destroy.confirmText": "Confirm",
+  "invoices.list.dataTable.actions.destroy.cancelText": "Cancel",
+  "invoices.list.dataTable.actions.destroy.messages.success.messageHeader": "Attention",
+  "invoices.list.dataTable.actions.destroy.messages.success.messageBody": "The selected invoice record was removed successfully",
+
+  "invoices.forms.create.success.messageBody": "The new invoice record was created successfully",
+  "invoices.forms.create.createButtonText": "Create",
+  "invoices.forms.create.cancelButtonText": "Cancel",
+
+  "invoices.forms.edit.success.messageBody": "The invoice record was updated successfully",
+  "invoices.forms.edit.updateButtonText": "Save changes",
+  "invoices.forms.edit.cancelButtonText": "Cancel"
+}

@@ -1,0 +1,31 @@
+{
+  "paymentGateways.pages.list.title": "Payment gateways",
+
+  "paymentGateways.list.dataTable.header.createButtonText": "Add record",
+
+  "paymentGateways.list.dataTable.header.idColumnName": "#",
+  "paymentGateways.list.dataTable.header.nameColumnName": "NAME",
+  "paymentGateways.list.dataTable.header.actionsColumnName": "ACTIONS",
+
+  "paymentGateways.list.dataTable.actions.archive.headerText": "Attention",
+  "paymentGateways.list.dataTable.actions.archive.bodyText": "The selected gateway record will be archived, do you want to proceed?",
+  "paymentGateways.list.dataTable.actions.archive.confirmText": "Confirm",
+  "paymentGateways.list.dataTable.actions.archive.cancelText": "Cancel",
+  "paymentGateways.list.dataTable.actions.archive.messages.success.messageHeader": "Attention",
+  "paymentGateways.list.dataTable.actions.archive.messages.success.messageBody": "The selected gateway record was archived successfully",
+
+  "paymentGateways.list.dataTable.actions.unarchive.headerText": "Attention",
+  "paymentGateways.list.dataTable.actions.unarchive.bodyText": "The selected gateway record will be restored, do you want to proceed?",
+  "paymentGateways.list.dataTable.actions.unarchive.confirmText": "Confirm",
+  "paymentGateways.list.dataTable.actions.unarchive.cancelText": "Cancel",
+  "paymentGateways.list.dataTable.actions.unarchive.messages.success.messageHeader": "Attention",
+  "paymentGateways.list.dataTable.actions.unarchive.messages.success.messageBody": "The selected gateway record was restored successfully",
+
+  "paymentGateways.forms.create.success.messageBody": "The new gateway record was created successfully",
+  "paymentGateways.forms.create.createButtonText": "Create",
+  "paymentGateways.forms.create.cancelButtonText": "Cancel",
+
+  "paymentGateways.forms.edit.success.messageBody": "The new gateway record was updated successfully",
+  "paymentGateways.forms.edit.updateButtonText": "Save changes",
+  "paymentGateways.forms.edit.cancelButtonText": "Cancel"
+}

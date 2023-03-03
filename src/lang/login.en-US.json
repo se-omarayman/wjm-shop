@@ -1,0 +1,12 @@
+{
+  "authentication.login.page.title": "Sign in",
+
+  "authentication.login.form.headerText": "Welcome back",
+  "authentication.login.form.subHeaderText": "Enter your email and password to sign in",
+
+  "authentication.login.messages.invalidCredentials": "Incorrect email address and/or password",
+
+  "authentication.login.links.forgotPassword": "Forgot password?",
+
+  "authentication.login.loginButtonText": "Sign in"
+}

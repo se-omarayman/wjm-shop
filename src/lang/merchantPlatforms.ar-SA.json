@@ -1,0 +1,31 @@
+{
+  "merchantPlatforms.pages.list.title": "منصات التاجر",
+
+  "merchantPlatforms.list.dataTable.header.createButtonText": "إضافة سجل",
+
+  "merchantPlatforms.list.dataTable.header.idColumnName": "#",
+  "merchantPlatforms.list.dataTable.header.nameColumnName": "الاسم",
+  "merchantPlatforms.list.dataTable.header.actionsColumnName": "الاجراءات",
+
+  "merchantPlatforms.list.dataTable.actions.archive.headerText": "تنبيه",
+  "merchantPlatforms.list.dataTable.actions.archive.bodyText": "سوف يتم أرشفة سجل المنصة المحدد، هل تريد المتلبعة؟",
+  "merchantPlatforms.list.dataTable.actions.archive.confirmText": "تأكيد",
+  "merchantPlatforms.list.dataTable.actions.archive.cancelText": "إلغاء",
+  "merchantPlatforms.list.dataTable.actions.archive.messages.success.messageHeader": "تنبيه",
+  "merchantPlatforms.list.dataTable.actions.archive.messages.success.messageBody": "تمت أرشفة سجل المنصة المحدد بنجاح",
+
+  "merchantPlatforms.list.dataTable.actions.unarchive.headerText": "تنبيه",
+  "merchantPlatforms.list.dataTable.actions.unarchive.bodyText": "سوف يتم إستعادة سجل المنصة المحدد، هل تريد المتلبعة؟",
+  "merchantPlatforms.list.dataTable.actions.unarchive.confirmText": "تأكيد",
+  "merchantPlatforms.list.dataTable.actions.unarchive.cancelText": "إلغاء",
+  "merchantPlatforms.list.dataTable.actions.unarchive.messages.success.messageHeader": "تنبيه",
+  "merchantPlatforms.list.dataTable.actions.unarchive.messages.success.messageBody": "تمت إستعادة سجل المنصة المحدد بنجاح",
+
+  "merchantPlatforms.forms.create.success.messageBody": "تمت إضافة سجل المنصة الجديد بنجاح",
+  "merchantPlatforms.forms.create.createButtonText": "إضافة",
+  "merchantPlatforms.forms.create.cancelButtonText": "إلغاء",
+
+  "merchantPlatforms.forms.edit.success.messageBody": "تم تحديث سجل المنصة الجديد بنجاح",
+  "merchantPlatforms.forms.edit.updateButtonText": "حفظ التغييرات",
+  "merchantPlatforms.forms.edit.cancelButtonText": "إلغاء"
+}
