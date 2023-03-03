@@ -172,10 +172,6 @@ function SignInPage({ intl }) {
             <SoftBox component="form" role="form" onSubmit={handleSubmit}>
               <SoftBox mb={2}>
                 <SoftBox mb={1} ml={0.5}>
-                  <SoftTypography component="label" variant="caption" fontWeight="bold">
-                    <FormattedMessage id="forms.input.email.labelText" />
-                  </SoftTypography>
-
                   <Field
                     name="email"
                     validateFields={[]}
@@ -197,6 +193,7 @@ function SignInPage({ intl }) {
                     {(fieldProps) => (
                       <TextField
                         errors={errors}
+                        placeholder="email@provider.com"
                         fullWidth={true}
                         touched={touched}
                         meta={fieldProps.meta}
@@ -212,21 +209,6 @@ function SignInPage({ intl }) {
 
               <SoftBox mb={2}>
                 <SoftBox mb={1} ml={0.5}>
-                  <Stack direction="row" justifyContent="space-between">
-                    <SoftTypography component="label" variant="caption" fontWeight="bold">
-                      <FormattedMessage id="forms.input.password.labelText" />
-                    </SoftTypography>
-
-                    <SoftTypography
-                      component={Link}
-                      to="/forgot-password"
-                      variant="button"
-                      color="info"
-                      fontWeight="medium"
-                    >
-                      <FormattedMessage id="authentication.login.links.forgotPassword" />
-                    </SoftTypography>
-                  </Stack>
 
                   <Field
                     name="password"
@@ -244,6 +226,7 @@ function SignInPage({ intl }) {
                       <TextField
                         errors={errors}
                         fullWidth={true}
+                        placeholder="*********"
                         touched={touched}
                         meta={fieldProps.meta}
                         input={fieldProps.input}
@@ -254,6 +237,18 @@ function SignInPage({ intl }) {
                       />
                     )}
                   </Field>
+
+                  <Stack direction="row" justifyContent="space-between">
+                    <SoftTypography
+                      component={Link}
+                      to="/forgot-password"
+                      variant="button"
+                      color="info"
+                      fontWeight="medium"
+                    >
+                      <FormattedMessage id="authentication.login.links.forgotPassword" />
+                    </SoftTypography>
+                  </Stack>
                 </SoftBox>
 
                 <SoftBox display="flex" alignItems="center" sx={{ mt: 1.7 }}>
@@ -274,8 +269,8 @@ function SignInPage({ intl }) {
                 </SoftBox>
                 <SoftBox mt={4} mb={1}>
                   <SoftButton
-                    variant="gradient"
-                    color="info"
+                    // variant="gradient"
+                    color="dark"
                     fullWidth={true}
                     type="submit"
                     disabled={submitting || loginForm.authenticating}

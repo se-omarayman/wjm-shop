@@ -76,8 +76,8 @@ function CoverLayout({ color, header, title, description, image, top, children }
                       // left: "20%",
                     // }}
                   >
-                <h2>asdfsdf</h2>
-                <h6>asdf asdf asdf </h6>
+                <h2>Welcome Back</h2>
+                <h6>Enter your details and pay bills easily</h6>
                     {children}
                   </div>
                 </SoftBox>

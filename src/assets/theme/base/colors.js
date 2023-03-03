@@ -80,7 +80,7 @@ const colors = {
   },
 
   dark: {
-    main: "#344767",
+    main: "#414142",
     focus: "#344767",
   },
 
