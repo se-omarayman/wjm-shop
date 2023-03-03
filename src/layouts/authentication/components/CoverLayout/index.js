@@ -27,53 +27,51 @@ import SoftTypography from "components/SoftTypography";
 // import DefaultNavbar from "components/Navbars/DefaultNavbar";
 import PageLayout from "containers/PageLayout";
 import bgImage from "../../../../assets/images/bg-Image.jpg";
+import logo from "../../../../assets/images/logo-ct.png";
 
 // Authentication layout components
 // import Footer from "layouts/authentication/components/Footer";
 
 function CoverLayout({ color, header, title, description, image, top, children }) {
   return (
-    <div style={{
-          backgroundImage: `url(${bgImage})`,
-          backgroundSize: "2300px",
-      backgroundPosition: "0 -300px"
-    }}>
-    <PageLayout>
-      <Grid
-        container
-        justifyContent="center"
-        sx={{
-        }}
-      >
-        <Grid item xs={11} sm={8} md={12} xl={12}>
-          <SoftBox mt={top}>
-            <SoftBox pt={3} px={3}>
-              {!header ? (
-                <div
-                  style={{
-                    display: "flex",
-                    "justify-content": "center",
-                    "align-items": "center",
-                  }}
-                >
-                  <SoftBox mb={1}>
-                    <SoftTypography variant="h3" fontWeight="bold" color={color} textGradient>
-                      {title}
-                    </SoftTypography>
-                  </SoftBox>
-                  <SoftTypography variant="body2" fontWeight="regular" color="text">
-                    {description}
-                  </SoftTypography>
-                </div>
-              ) : (
-                header
-              )}
+    <div
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: "2300px",
+        backgroundPosition: "0 -300px",
+      }}
+    >
+      <PageLayout>
+        <Grid container justifyContent="center">
+          <Grid item xs={10} sm={6} md={6} xl={6}>
+            <SoftBox pt={0} px={0}>
+              <div
+                style={{
+                  display: "flex",
+                  position: "relative",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  top: "90px"
+                }}
+              >
+                <img src={logo} width="70%"/>
+              </div>
             </SoftBox>
-            <SoftBox p={5}>{children}</SoftBox>
-          </SoftBox>
+            <SoftBox mt={top}>
+              <div
+                style={{
+                  display: "flex",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  backgroundColor: "black",
+                }}
+              >
+                <SoftBox p={5}>{children}</SoftBox>
+              </div>
+            </SoftBox>
+          </Grid>
         </Grid>
-      </Grid>
-    </PageLayout>
+      </PageLayout>
     </div>
   );
 }
