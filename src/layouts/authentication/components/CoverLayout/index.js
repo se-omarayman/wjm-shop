@@ -50,23 +50,37 @@ function CoverLayout({ color, header, title, description, image, top, children }
                   display: "flex",
                   position: "relative",
                   "justify-content": "center",
-                  "align-items": "center",
-                  top: "90px"
+                  top: "90px",
                 }}
               >
-                <img src={logo} width="70%"/>
+                <img src={logo} width="70%" />
               </div>
             </SoftBox>
             <SoftBox mt={top}>
               <div
                 style={{
-                  display: "flex",
+                  width: "60%",
+                  left: "20%",
+                  // display: "flex",
+                  position: "relative",
                   "justify-content": "center",
                   "align-items": "center",
-                  backgroundColor: "black",
+                  backgroundColor: "white",
                 }}
               >
-                <SoftBox p={5}>{children}</SoftBox>
+                <SoftBox p={5}>
+                  <div
+                    // style={{
+                      // position: "relative",
+                      // width: "65%",
+                      // left: "20%",
+                    // }}
+                  >
+                <h2>asdfsdf</h2>
+                <h6>asdf asdf asdf </h6>
+                    {children}
+                  </div>
+                </SoftBox>
               </div>
             </SoftBox>
           </Grid>
