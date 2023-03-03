@@ -301,6 +301,7 @@ function SignInPage({ intl }) {
           </div>
         )}
       />
+        <Footer />
     </CoverLayout>
   );
 }

@@ -31,6 +31,9 @@ import logo from "../../../../assets/images/logo-ct.png";
 
 // Authentication layout components
 // import Footer from "layouts/authentication/components/Footer";
+const redirectToHome = () => {
+  window.location.href = "/"
+}
 
 function CoverLayout({ color, header, title, description, image, top, children }) {
   return (
@@ -45,7 +48,7 @@ function CoverLayout({ color, header, title, description, image, top, children }
         <Grid container justifyContent="center">
           <Grid item xs={10} sm={6} md={6} xl={6}>
             <SoftBox pt={0} px={0}>
-              <div
+              <div onClick={redirectToHome}
                 style={{
                   display: "flex",
                   position: "relative",
