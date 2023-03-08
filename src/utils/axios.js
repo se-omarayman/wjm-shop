@@ -9,8 +9,8 @@ import { useIntl } from "react-intl";
 // ----------------------------------------------------------------------
 
 const axiosInstance = axios.create({
-  // baseURL: "http://localhost:8000/api/",
-  baseURL: "https://wjmshop.net/api/",
+  baseURL: "http://localhost:8000/api/",
+  // baseURL: "https://wjmshop.net/api/",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
